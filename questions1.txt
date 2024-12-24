@@ -1,0 +1,7 @@
+Q1 latest version of html,css,js,react,bootstap and alltech and fetaures of latest version?
+Q2 command line to start react and next server 
+Q3 what is css.js,react , materialui ,bootstrap ,tailwind and nextjs .
+Q4  what is closure ? 
+Q5 what is arrow function ,promise , async ,await ,promise parameter ,class , object , callback hill ,spread operator 
+microtask , macrotask ,sttimeout ,setinterval ,useeffect , scope,splice
+Q6 useeffect , redux , why react , state , 

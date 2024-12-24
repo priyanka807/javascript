@@ -1,0 +1,8 @@
+1  target the company  both service and product based and salary expectation is 35 to 40k  and deadline  is 11 july 
+
+2 time for preparation is 1.5  month   and 3 office works also
+
+//start optimization 
+3 you have so many data but it's not organize what you can find easily  
+.javascript  -> all javascript logics  , output  based answer 
+.text file -> plan,hrround , interview-questions 

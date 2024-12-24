@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alarm clock</title>
+    <link rel="stylesheet" href="alarmclock.css">
+    <link href="//db.onlinewebfonts.com/c/84cb021d5f9af287ffff84b61beef6dc?family=clockicons" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+    <h2 class="alarm-time" id="alarmTime"></h2>           
+    <div>
+        <div class="current">
+         <div id="time" class="time"></div>                  
+         <div id="date" class="date"></div>
+		 
+         <div class="form-container"> 
+		 
+            <form id="form">
+                <div class="form-control">
+                    <h1 for="appt">SET ALARM TIME</h1>
+                    <input type="time" id="appt" name="appt"
+       min="04:00" max="24:00" required>
+                </div>
+                <button type="submit">SET ALARM</button>
+            </form>
+			
+			
+            <button onclick="handleClear()">CLEAR ALARM</button>
+        </div>
+		
+		
+		
+        </div>
+        <audio id="alarm-audio"></audio>
+    </div>
+    <script src="alarmclock.js"></script>
+</body>
+</html>
