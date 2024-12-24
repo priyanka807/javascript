@@ -1,0 +1,9 @@
+
+.middle{
+color:aquamarine;
+}
+
+@media screen and   (max-width:600px){
+    .middle{color:red}
+
+}

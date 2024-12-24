@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Awesome Todolist</title>
+</head>
+<body>
+    <form  onsubmit="handleAddTodo(event)">
+  <input  type="text"  id="input"  onchange="handleChangeTodo(event)"/>
+  <button  type="submit">add todo</button>
+</form>
+  <ul id="ul"></ul>
+    <script>
+    const ul = document.getElementById("ul")
+let targetValue;
+let boyspersonality = ["self respect","hard working","understanding"]
+let editModal  = false
+
+let editItems;
+let editIndex;
+
+let checkedforlinethrough = [false,false,false]
+
+let linethroughindex;
+
+function showTodo(){
+ul.innerHTML = ""
+    boyspersonality.length>0&&boyspersonality.forEach((personality,index)=>{
+
+        let createLi = document.createElement("li")
+       createLi.innerHTML =  `<span  onclick="handlelinethroughstyle(${index})"   style="${checkedforlinethrough[index]? 'text-decoration: line-through;' : ''}">${personality}</span><button   style="${checkedforlinethrough[index]?'color:white;background-color:red':''}" onclick="handleDelete(${index})">Delete</button>${editModal&&editIndex===index?`<input type="text" value='${editItems}' onchange="handleEditChange(event)" /><button onclick="handleEditAdd(${index})">add</button>`:`<button onclick="handleEdit('${personality}',${index})">Edit</button>`}`
+        ul.appendChild(createLi)
+})
+}
+showTodo()
+
+function handleChangeTodo(event){
+    targetValue = event.target.value
+
+}
+
+function handleAddTodo(){
+    event.preventDefault();
+    if(targetValue.trim().length>0){
+        boyspersonality = [...boyspersonality,targetValue]
+showTodo()
+document.getElementById("input").value = ""
+targetValue=""
+    }
+
+
+}
+function handleDelete(deleteindex){
+    boyspersonality  = boyspersonality.filter((deleteitems,index)=>index!==deleteindex)
+
+    showTodo()
+}
+function handleEdit(edititems,editindex){
+    editModal = true
+    editIndex = editindex
+    editItems = edititems
+    showTodo()
+}
+function handleEditChange(event){
+         if(event.target.value.trim().length>0){
+            editItems = event.target.value
+         }
+  
+}
+
+function handleEditAdd(editindex){
+    boyspersonality = boyspersonality.map((items,index)=>editIndex===index?editItems:items)
+    editModal = false
+    editItems = ""
+    showTodo()
+}
+
+function handlelinethroughstyle(linethroughindex){
+    const updatecheckedforlinethrough = [...checkedforlinethrough]
+    console.log(updatecheckedforlinethrough,'updatecheckedforlinethrough')
+    updatecheckedforlinethrough[linethroughindex]  = !updatecheckedforlinethrough[linethroughindex]
+    checkedforlinethrough  = updatecheckedforlinethrough
+    showTodo()
+}
+    </script>
+</body>
+</html>

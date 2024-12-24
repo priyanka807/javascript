@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Active Class On Navbar Items</title>
+    <style>
+        .active{
+            background-color: red;
+            color: #ffff;
+        }
+        .inactive{
+            background-color: green;
+            color: black;   
+        }
+        .gray_background{
+            background-color: #333333;
+            color: #ffff;
+            padding: 5px;
+        }
+        .pink_background{
+            background-color: pink;
+          
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <ul style="display: flex;justify-content: center;gap: 30px;margin-top: 50px;list-style: none;" >
+        <li>Home</li>
+        <li>About</li>
+        <li>Products</li>
+        <li>Contact</li>
+    </ul>
+
+
+    <div style="display: flex;justify-content: center;gap: 30px;margin-top: 50px;list-style: none;">
+      <div ><h1 class="heading">heading1</h1><div class="child"><h3>items 1</h3><h3>items 1</h3></div></div>  
+      <div  ><h1 class="heading">heading2</h1><div class="child"><h3>items 2</h3><h3>items 2</h3></div></div>
+      <div ><h1 class="heading">heading3</h1><div class="child"><h3>items 3</h3><h3>items 3</h3></div></div>
+    </div>
+
+    <div style="display: flex;justify-content: center;align-items:center;margin-top: 50px;list-style: none; flex-direction: column;">
+        <div ><h1 class="headings">heading1</h1><div class="childs"><h3>items 1</h3><h3>items 1</h3></div></div>  
+        <div  ><h1 class="headings">heading2</h1><div class="childs"><h3>items 2</h3><h3>items 2</h3></div></div>
+        <div ><h1 class="headings">heading3</h1><div class="childs"><h3>items 3</h3><h3>items 3</h3></div></div>
+      </div>
+    <script src="activeclass.js"></script>
+</body>
+</html>

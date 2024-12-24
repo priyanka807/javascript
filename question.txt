@@ -1,0 +1,21 @@
+1 how does a browser render web page ? can you explain critical rendering path ?.
+browser processess html,css and js to build dom ,cssom and render tree then paints and composites the page .
+critical rendering path customize content by display prioritizing above-the-fold resources.
+
+
+2 can you explain process of debugging  slow loading  website ?
+use tools like chrome devtools optimize image ,minimize css&js ,impliment lazy loading , use cdn ,
+ reduce api call/http call  , enable compression , ressolve performance issuess.
+
+
+3 how does responsive design work ? what tools and techniques do you use for testing responsive ?.
+resiponsive design use fluid image , flexible grid and media query . tools like  developer tools , browserstack
+responsive framework like bootstrap adapt acrross various device and screen sizes.
+
+4 how do you ensure a11y design in website ?
+1 use sementic html 2 provide alt attribute in images 3 link applicable 4 aria for role in non sementic elements (accessiable rich internet application)
+5 use appripriate color contrast 6 use meaningful content with text ,icon , color with meaningfull info  7 use label 8 responsive and zoom friendly website
+9 provide caption for video tag and transcript for media in audio tag 10 test for screen reader
+
+
+

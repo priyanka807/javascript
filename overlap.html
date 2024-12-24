@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .main_container{
+        width: 400px;
+        border: 1px solid black;
+        border-radius: 50px;
+    }
+    .direction{
+       width: 50%;
+       padding: 10px;
+        border-radius: 50px;  
+        display: flex; 
+        justify-content: center;
+        align-items: center;
+    }
+    .active{
+        background-color: red;  
+        color: #ffff;
+    }
+    input[type="radio"]{
+        display: none;
+    }
+    #select_pickup_location,#select_dropoff_location,#select_pickup_airport,#select_dropoff_airport{
+        width: 400px;
+        margin: 5px 0px;
+        padding: 5px;
+        display: block;
+    }
+    label{
+        display: block;  
+        /* margin: 20px 0px 0px  3px ; */
+    }
+    .label{
+         margin: 20px 0px 0px  3px ;  
+    }
+select{
+    /* opacity: 0.4; */
+    color: #808080;
+}
+</style>
+<body>
+    <div>
+    <div class="main_container" style="display: flex;justify-content: center;align-items:center;margin-top: 50px;">
+        <div  class="active  direction"><label for="to_airport">To Airport</label><input id="to_airport" type="radio" value="to_airport" name="select_direction" checked/></div>
+        <div class="direction"><label for="from_airport">From Airport</label><input  id="from_airport" type="radio" value="from_airport" name="select_direction" /></div>
+    </div>
+</div>
+
+<form id="form" >
+<div id="pickup_location">
+    <label class="label" for="select_pickup_location">Select Pickup Location</label>
+<select name="select_pickup_location" id="select_pickup_location" >
+    <option value="" >select pickup location</option>
+    <option value="delhi" >delhi</option>
+    <option value="mumbai">mumbai</option>
+     <option value="goa">goa</option>
+     <option value="keral">keral</option>
+     <option value="benglore">benglore</option>
+</select>
+<label class="label" for="select_pickup_airport">Select Pickup Airport</label>
+<select name="select_pickup_airport" id="select_pickup_airport" >
+    <option value="">select pickup airport</option>
+    <option value="london" >london</option>
+    <option value="delhi" >delhi</option>
+    <option value="mumbai">mumbai</option>
+     <option value="goa">goa</option>
+     <option value="keral">keral</option>
+     <option value="benglore">benglore</option>
+</select>
+</div>
+<div id="dropoff_location" style="display: none;">
+    <label class="label" for="select_dropoff_airport">Select Dropoff Airport</label>
+    <select name="select_dropoff_airport" id="select_dropoff_airport">
+        <option value="" >select dropoff airport</option>
+        <option value="london" >london</option>
+        <option value="delhi" >delhi</option>
+        <option value="mumbai">mumbai</option>
+         <option value="goa">goa</option>
+         <option value="keral">keral</option>
+         <option value="benglore">benglore</option>
+    </select>
+    <label class="label" for="select_dropoff_airport">Select Dropoff Location</label>
+    <select name="select_dropoff_location" id="select_dropoff_location">
+        <option value="">select dropoff location</option>
+        <option value="delhi" >delhi</option>
+        <option value="mumbai">mumbai</option>
+         <option value="goa">goa</option>
+         <option value="keral">keral</option>
+         <option value="benglore">benglore</option>
+    </select>
+</div>
+<button type="submit">Sumbit </button>
+</form>
+
+<div id="show_details"></div>
+
+<div id="dropoff_location"></div>
+    <script src="overlap.js"></script>
+</body>
+</html>
