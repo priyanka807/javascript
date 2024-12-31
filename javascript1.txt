@@ -1,0 +1,43 @@
+1 callback function : callback function is a function takes another function as an argument in a intially parameter .
+execute code at a appropriate time and take action after initially function has completed . ex : asynchronous code , event handling and 
+other scenerio where we want to define custome behaviour is to be ecuted at a specific time : all array method call 
+
+2 annonyomous function : is does not have name , function keyword assign to the variable , invoke variable as consdering function 
+1 shortand syntext 2 inc efficiency and performance 3 time consuming 4 code concise 5 flexiblity .
+
+3 let ,var and const are used to variable declaration 
+
+var : function scope declaration , we can use same variable name using var keyword , value can be accessed before the declaration due to hoisting 
+,it is hoisted on the top of scope .
+
+let : block level declaration , reassign the value to the variable , we can access value outside of the curly brace 
+const : create read only referrence , block scope declaration 
+
+promises : promise is a object that represtent completion or failure of asynchronous code .
+async and wait : is a way to write async code which looks and behave like sybnchronous code .
+ array : collection of the data , eleeent in particular order 
+ obj : collection of key value pair 
+
+
+ map : create new array by applying callback function on each element of orginal array , it do not modify orginal array.
+filter : create new array only contain those element which stastisfied the given condition ,it do not modify orginal array.
+foreach : applying callback function on each element ,it does not return  new array , typically used for side effects : logging and updating variable 
+sort : sort the elements of array in  place return same array by default it  convert  elements into string and  compare their unicode value  . custom comparision function can be provided .sort modify the original array.
+reduce :reduce method in js execute /applying callback function on each element of array and returing single output value .
+it itirates through array and result the ammulator using accumator . it can be provided initial accumlator value . accumator value will be come from previous callbackback execution.
+const number = [1,2,3,4]
+const multiply = number.map((num)=>num*2)
+const filtered = number.filtered((num)=>num!==2) 
+const onlylogging = number.forEach((num)=>num*2)
+console.log(multiply ,'multiply ') // output : [2,4,6,8]
+console.log(filtered ,'filtered ') // output : [4,6,8]
+console.log(onlylogging ,'onlylogging ') // output : undefined 
+console.log(number,'number ')  //[1,2,3,4] it do not modify orginal array
+console.log([10,4,5,0,3].sort(),'[0,10,3,4,5]')
+
+const num = [0,1,2,3,4]
+const add = num.reduce((accum,curr,index)=>{
+  console.log(accum,curr,'accum,curr') 
+return accum+curr
+},5)
+console.log(add,'add')

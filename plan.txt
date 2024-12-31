@@ -6,3 +6,42 @@
 3 you have so many data but it's not organize what you can find easily  
 .javascript  -> all javascript logics  , output  based answer 
 .text file -> plan,hrround , interview-questions 
+
+practicle in react  and deadline 30min only
+infintifintive baller 
+startpausereset
+todolist 
+selectfavourteGameAndPlayer(radio)
+darkmode with context 
+debouncing 
+searchData
+calculator 
+checkboxOnDeleteCondition
+swapOnUsingCheckbox
+pagination 
+carousal
+selectCitiesAndCountries(select)
+breadcrumb 
+hooks (usestate, useeffect,usereducer,memo,usememo,usecallback,useref , usetransition, useoptimistic)
+context 
+
+practice in js in 30 min
+todolist in js 
+form submission data
+active class 
+overlap 
+debouncing 
+output based question 
+
+practice in html&class and react  in 30min
+navbar (modify from frameworks and manually)
+card 4 in row (modify from frameworks and manually)
+card 1 with content (modify from frameworks and manually)
+footer (modify from frameworks and manually)
+understanding of figma design 
+
+
+
+
+
+

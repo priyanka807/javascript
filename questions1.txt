@@ -5,3 +5,6 @@ Q4  what is closure ?
 Q5 what is arrow function ,promise , async ,await ,promise parameter ,class , object , callback hill ,spread operator 
 microtask , macrotask ,sttimeout ,setinterval ,useeffect , scope,splice
 Q6 useeffect , redux , why react , state , 
+Q7 interpreter and complier
+// color ,assets ,main -width ,font ,box-shadow , and blur etc.
+//component based artictecture , own state ,reused component , redux ,library 

@@ -1,0 +1,16 @@
+
+1 bootstrap and tailwind : bootstrap is a popular frontend css framework that provides pre designed components 
+ex : navbar ,card ,button , dropdown . it's opinionated and include pre design styles and javascript plugins .
+ex: pre build components : <button class="btn btn-primary"></button> includes more css classes just like padding , border-radius , color,
+background-color , text style and color , space , so includes more pre styled if you want this in tailwind you need to install plugins
+daisyui and flowbite .both provide mobile based layout .
+size and split : slower performance why already have js plugin installed and component
+customization : difficult , follow old pattern to customize code , customise these using saas variable and mixin color,typography and space 
+tailwind : tailwind is a popular frontend first utility  css framework that allow to developer style  directly in html using utility classes.
+it is unpoinionated and require more manual design efforts but provide more flexiblity.
+ex : <button class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">Tailwind Button</button>
+ex: provide so many helpers class , no preffrence for specific design , 
+customization : easily modify in components using helpers class , color , spacing , typography ki deffrred value changed 
+size and spit : better performance 
+
+bootstrap : version 5.3   and tailwind : 3.4.17 

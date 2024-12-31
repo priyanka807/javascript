@@ -1,0 +1,47 @@
+react : react is a popular javascript library for building userinterface  .
+1 component based architecture : based on the component based articture and create reused component throughout 
+the application and developer    braek manipulate ui into   smaller task and manageable  component and it helps to manage and debug code easily .
+
+2 unidirectional flow : it means it passed the data parent to child components that'why it is very easy to manage and 
+debug the code .
+
+3 declarative syntex : it means react cares how coponent will efficeintyly manage and what you want to ui look as you created ex : listing map and button click event 
+4 virtual dom : whenever state component has changed react update the virtual dom , react compare old and new one . virtual dom only update dom where necessary
+
+5 jsx : jsx is a javascript syntex extension which allow to developer write html like a code in js file . it makes to easy create manipulate ui.
+5 rich ecosystem: react has large ecosystem including react-routing library for routing and redux for state management  . it intigrate with diffrent tools and framework.
+6 cross platform development :with the raect native tools .react can build the mobile application also using react native . ensuring consistent web developent and troubleshhoting 
+7 great community system : have better community systems , documenation and resources while helps to developer learn easily and debug code efficiently .
+
+8 react latest : July 11 , 2024 
+
+9 framework and library : in framework : library , configruation , helpers -> make work easy ,design pattern (mvc) model ,view ,controller  , approach , request -controller , view - >frontend ,  model -> database releted function return response ,database commounicate . libraray -> make classes for any fun and resued ->send mail , coolect all module create framework and fully dependent .
+library : a library is a pre written functions or classes that developers can call as needed .
+control : developer have control and call the library func whenever needed 
+
+framework : is a complete structure with predefined rules ,pattern ,artitecture to build application.
+control : framework controls flow of the application .developer follow its convention .
+use case : large scall application where requiring structured approach (mvc)
+m->model  (have to add so many configuration and helpers ),make work easy ,must follow design pattern ,databased related function response 
+v -> view->frontend ->collect all module 
+c->control -> request to controller ->fully dependent -> have all access 
+const num = [4,5,90,2]
+const max = Math.max(num)
+console.log(max,'90)
+instead of this you can use loadash libray which provide you a function you just passed only data . this make your work so easy and effortless and save your time and efforts .
+you can create craousal function itself and you can use slick-carousal library .
+
+react latest version : version19 features : useTransition (api pending ) and useOptimistic (twitter name update)
+useActionState(),useFormStatus(),use in usecontext 
+node latest version : 22.12.0
+npm  latest version:11.0
+typescript latest version: 5.7.2
+
+//canva , off-page seo , promotion , wordpress , shopify 
+
+i know they can't afford him 2-2.50  ,for hiring new get two months , if start any project i have to leave project in 
+her goal is big but budget was enough ,no have budget . really you are wasteing your time if only checking but not doing anything else .
+learn backend in next year using mongodb and node express mern  build api and live api and secure api before lunch 1 hr daily for interview 2 for backend after lunch add 
+pages more . 
+
+

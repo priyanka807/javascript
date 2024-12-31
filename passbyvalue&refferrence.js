@@ -26,3 +26,17 @@ obj1.hobb = "tal"
 
 
 console.log(obj,obj1)
+
+
+const mutablevar = [8,9,0,1,2,3]
+const mutablevar1 = mutablevar
+mutablevar1[9] = true
+
+// console.log(mutablevar,'mutablevar')
+// console.log(mutablevar,'mutablevar1')
+
+const immutablevar = 7
+let  immutablevar1 = immutablevar
+immutablevar1 = true
+// console.log(immutablevar,'mutablevar')
+// console.log(immutablevar1,'mutablevar1')

@@ -1,0 +1,61 @@
+1 .javascript : js is a single threaded language and dynamanic typed language .it helps to create dynamanic and interactive 
+content on the webpage . this is a versaltile programming language which provide better user experience and web develeopment expereince .
+.dynamanic type language . scripting language . single threaded and synchronous language , interpretion , lieghtweight 
+.faster web develepoment experience , do not take  more & more  time to execute program 
+.rapid development ,easy to learn , cross platform browser , better communities , support asynchronous code 
+2 .single threaded language and synchronous language : it means has one call stack and used  to execute program one by one in machine codes .
+.each operation waits for last one to complete before executing .
+.execute single line of code / one by one.
+.translate one statement at one time into machine codes .
+
+3. dynamanic typed language : we don't need to explicity  define type of datatype to declare variable /initilize variable 
+before executing .it will not provide you error when you execute this program on browser .
+the type of variable is determined at runtime bases on variavle value holds it .
+create complex situation sometimes during  runtime environment that's why giving error .
+
+let var = 
+let var = 1
+let var = true 
+let var = "" // the type of varaiable is determined at runtime bases on variable which type of holds
+
+4 complier : translate /processes the entire source code at once into machine codes before run program codes .
+and generating /creating executable file that can be run directly without needing source code and other complier again.
+complier scan entire program at once and translate whole program once into machine codes .
+ex :c++ ,c ,java 
+benifits : large scale application and performance critical task  like gaming engines  and operation system
+2 speedup during execution because program has already converted into machine code 
+
+
+5 interpreter : translate and execute code line by line as code runs or into machine codes , provide immediate feedback .
+interpreter are better for web environmenet where load time are essentials .
+interpreter translate a statement one by one into machine codes .
+
+ex : javascript ,phthan ,ruby 
+
+heap memory -> allocate memory used by program - > store var,fun ,arr,obj etc 
+
+
+6 call stack -> heap memory  send to data in callstack , execute synchronous code first into machine code and hold async code for execution , execute in the last .
+async code is a part of webapi.
+
+
+7 runtime environment : js runtime is a environment where provde all necessary componnts in order to execute program .
+runtime environments consists several type of component such as js egine ,callback,web api , micro and macro task .
+
+
+8 asynchronous : it refers to handle task that might take time to complete those taks suc as fetching data from server , read file from database 
+and perform i/o operation (read file or create file from database ).we have diffrent mechanisms in js to handle this issues , one is common
+example of callback and async ,await , timeout ,promise etc.
+
+9 client and server side rendering : 1 seo is enough required and seo is required .
+2 api intigration on browser and api inigration on server 
+3 using html ,css and js to make client side webpage and use node , phytan , java to make api call on server side rendering 
+4 create interactive user interface run this on browser , instruction for the browser how display on browser 
+and intact with databse ,perform server logic , api generate ,run on server ex : xampp, node , pythan
+
+
+                                                                                               
+
+
+
+
