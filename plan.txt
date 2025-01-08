@@ -11,7 +11,7 @@ practicle in react  and deadline 30min only
 infintifintive baller 
 startpausereset
 todolist 
-selectfavourteGameAndPlayer(radio)
+selectfavourteGameAndMovie(radio)
 darkmode with context 
 debouncing 
 searchData

@@ -30,3 +30,23 @@ const result5 = arr.map((item)=>{
 // console.log(first)
 const result6 = preson.sort((a, b) => a.address.localeCompare(b.address));
 console.log(result6,"result6")
+
+let checked1 = [false,false,false]
+let update = [...checked1]
+update[3] = !update[3]
+ checked1 = update
+console.log(update,'update')
+console.log(checked1,'checked1')
+
+const game = [1,2,3,4,5]
+console.log(Array(game.length).fill(false))
+
+if(game.includes(5)){
+    throw new Error('it is already exits')
+}else{
+    console.log('everything is fine and create new user')
+}
+
+
+const arrlist = []
+console.log(!arrlist)

@@ -74,13 +74,15 @@ const handleEditSave = ()=>{
 
 const handleSelectedCheckbox = (checkedIndex)=>{
     const selectedCheckbox = document.querySelectorAll('input[type="checkbox"]')
+    console.log(selectedCheckbox,'selectedCheckbox')
     const isChecked = Array.from(selectedCheckbox).some((selectedcheckedbox)=>selectedcheckedbox.checked)
-if(isChecked){
+    // console.log(isChecked,'isChecked')
+    if(isChecked){}
     let updatedCheckedCheckbox = [...checkedCheckbox]
     updatedCheckedCheckbox[checkedIndex]  = !updatedCheckedCheckbox[checkedIndex]
     checkedCheckbox = updatedCheckedCheckbox
 handleTodo()
-}
+
 }
 
 

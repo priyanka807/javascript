@@ -45,3 +45,9 @@ console.log(splitstring,'jaan meri you love i')
 // for(let i of convertinArr){
 //     console.log(i,'add space using join method')
 // }
+const calculation = eval("7+-*8")
+const password = undefined
+    console.log(!password,'password')
+if(!password){
+    console.log('now this will run ')
+}

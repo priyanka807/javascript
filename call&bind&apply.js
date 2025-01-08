@@ -128,5 +128,50 @@ function borrowfun(obj,up){
     
     }
   stud2.nameupdate.call(stud3,'maksood')
-  con
+  
+
+
+// const studentA = {
+//     name:"priyanka",
+//     marks:450,
+//     totalMarks : function(bio,chem){
+//       return bio+chem
+//     }
+// }
+// studentA.totalMarks(56,97)
+// const studentB = {
+//     name:"gungun ",
+//     marks:444,  
+// }
+
+// studentA.totalMarks.call(studentB,87,8)
+
+//
+// const obj = {
+//   a: 1,
+//   b: 2,
+//   sum() {
+//     return this.a + this.b;
+//   }
+// };
+//   // sum()
+// const newObj = obj.sum; //when you obj.sum assign to newobj ,you are copying methed itself.  newobj   will not bound for obj , this is standalone function , newobj will no longer bound for obj .it become default behaviour of this globally 
+// console.log(newObj());  
+
+
+let count = 0
+const obj = {
+
+  count: 1,
+  increment() {
+    this.count++;
+    console.log(this.count);
+  }
+};
+
+const increment = obj.increment
+increment();
+obj.increment();
+
+
     

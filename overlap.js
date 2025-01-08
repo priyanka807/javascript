@@ -8,9 +8,8 @@ const select_dropoff_airport= document.getElementById("select_dropoff_airport")
 const select_dropoff_location= document.getElementById("select_dropoff_location")
 const show_details = document.getElementById("show_details")
 const form = document.getElementById("form")
-let getData = document.querySelector("input[name='select_direction']:checked").value //dropoff_location
+let getData = document.querySelector("input[name='select_direction']:checked").value 
 const  dropoff_location = document.getElementById("dropoff_location")
-
 
 directions.forEach((direction)=>{
     const airportType = direction.querySelector("input")
@@ -50,3 +49,4 @@ if(select_pickup_location.value.length>0&&select_pickup_airport.value.length>0){
 
 
 })
+

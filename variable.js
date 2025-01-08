@@ -50,3 +50,13 @@ console.log(a,'refference error  because let is a block level scope declaration 
 
 //var has global scope
 console.log(b,'print 20 because var do not perform block   if you define variable using var keyword inside loop and curly brace you can access value outside of loop and curly brace')
+
+
+
+var globalVar = "I am globle variable "
+let globalLet = "I'm a let";
+const globalConst = "I'm a const";
+
+console.log(window.globalLet);  // Output: undefined in the case of const and let 
+
+console.log(window.globalVar);  //access window object and get value  

@@ -30,3 +30,23 @@ const store = sum(4,5,6)
 // console.log(store.getTwoSum(4) )
 const store1 = sum(2,1,0)
 console.log(store1.getTwoSum(4) )
+
+//nested variable ,lexical envirment , even function has returned 
+
+function outerfunction(){
+    const outervariable = 10
+    
+        return function(){
+            console.log(outervariable,'outervariable')
+        }
+        
+    }
+    const callouterfunction = outerfunction()
+    callouterfunction()
+    
+    const arr = [5, 2, 3, 4];
+    
+    arr.reduce((accum,value,index)=>{
+        console.log(accum,value,index,'accum,value,index')
+        return accum+value
+    },2)

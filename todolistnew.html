@@ -78,8 +78,9 @@ function handleEditAdd(editindex){
 
 function handlelinethroughstyle(linethroughindex){
     const updatecheckedforlinethrough = [...checkedforlinethrough]
-    console.log(updatecheckedforlinethrough,'updatecheckedforlinethrough')
+    
     updatecheckedforlinethrough[linethroughindex]  = !updatecheckedforlinethrough[linethroughindex]
+    console.log(updatecheckedforlinethrough,'updatecheckedforlinethrough')
     checkedforlinethrough  = updatecheckedforlinethrough
     showTodo()
 }

@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  </head>
+  <style>
+    .active{
+  background-color:   rgb(0, 5, 12);
+  padding: 0.5rem;
+}
+.inactive{
+  background-color:   rgb(11, 18, 29);
+  padding: 0.5rem;
+}
+  </style>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-dark border-bottom border-body md-px-5"  data-bs-theme="dark">
+        <div class="container-fluid   ">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <a class="navbar-brand" href="#">Navbar</a>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0   gap-2">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+              </li>
+            </ul>
+            <form class="d-flex gap-2" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script>
+        const navLinks = document.querySelectorAll(".nav-link")
+        console.log(navLinks,'navLinks')
+        navLinks.forEach((navlinks)=>{
+            navlinks.addEventListener("click",()=>{
+  //  document.querySelector("active")?.classList.remove("active")
+  //  navItems.classList.add("active")
+  for(let navlinks of navLinks){
+ 
+    navlinks.classList.add("inactive")
+    navlinks.classList.remove("active")
+  }
+  navlinks.classList.remove("inactive")
+  navlinks.classList.add("active")
+})
+})
+    </script>
+  </body>
+</html>
