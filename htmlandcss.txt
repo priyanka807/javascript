@@ -1,7 +1,12 @@
 
 1 bootstrap and tailwind : bootstrap is a popular frontend css framework that provides pre designed components 
 ex : navbar ,card ,button , dropdown . it's opinionated and include pre design styles and javascript plugins .
+
 ex: pre build components : <button class="btn btn-primary"></button> includes more css classes just like padding , border-radius , color,
+ex : opinionated : you dont need to write custom code for common navbar behaviour : space ,color , hover , margin ,padding default get using navbar 
+ex : javascript plugin : toggle navbar , coolpse color change on nvabar icon click 
+
+
 background-color , text style and color , space , so includes more pre styled if you want this in tailwind you need to install plugins
 daisyui and flowbite .both provide mobile based layout .
 size and split : slower performance why already have js plugin installed and component
@@ -14,3 +19,13 @@ customization : easily modify in components using helpers class , color , spacin
 size and spit : better performance 
 
 bootstrap : version 5.3   and tailwind : 3.4.17 
+
+
+ both are using for making client hhtp request 
+ browser provide fetch api to making http request
+ for using axios you have to install extra third party library because some browser do not support 
+ fetch only handle network error  for managing all type of error you need to write custom code 
+ // shorter syntex , handle all error type , automatically pass json response 
+ // you need to write code for getting response code 
+ // if you want to achieve more like timeout , inceptores you need to write custom code while axios provide automatically 
+

@@ -3,13 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title> 
+    <title>Debouncing Example</title> 
 </head>
 <body>
-    <h1>Hello from normal Vs Arrow</h1>
-    <button id="button" onclick="handleClick()">Click</button>
-    <input type="text" placeholder="search anything" id="input">
-    <div id="data"></div>
-    <script src="debounce.js"></script>
+
+  <form id="form">
+    <input type="text" placeholder="Search anything" id="input" oninput="betterfunction()">
+    <button type="submit">Add</button>
+  </form>
+   
+  <div id="data"></div>
+
+  <script>
+    const input = document.getElementById('input');
+    const data = document.getElementById('data');
+
+    const handleSearchTerm = (searchTerm) => {
+      console.log(`Searching for: ${searchTerm}`);
+      data.textContent = `Results for: ${searchTerm}`;
+    };
+
+    const debouncefun = (callback, delay) => {
+      let timer;
+      return function () {
+        
+        
+        if (timer) {console.log(timer,'add ');clearTimeout(timer);console.log(timer,'remove ')} 
+
+        timer = setTimeout(() => {
+          callback(); 
+        }, delay);
+        
+      };
+    };
+
+    const betterfunction = debouncefun(() => handleSearchTerm(input.value), 1000);
+  </script>
 </body>
 </html>

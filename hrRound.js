@@ -25,3 +25,17 @@
 
 
 //1 streamlined and accessible  2 seamless user experience  3 accessability and useability , thrive in collabrative environments ,continuousaly seeking opportunities .
+
+
+//mmwmachine.com
+// A user-friendly and mobile-responsive platform designed for seamless navigation and fast loading times.
+//added multiple location and language to reach target audience .
+// Detailed product descriptions with optimized meta tags.
+// added multiple location and language to reach target audience .
+
+
+ 
+
+
+
+
