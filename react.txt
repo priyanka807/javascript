@@ -45,3 +45,9 @@ learn backend in next year using mongodb and node express mern  build api and li
 pages more . 
 
 
+
+react 19 usetransition , useoptimistic ,useFormStatus ,   boot 5.3 tailwind 3.4.17 
+
+semantic tags , audio ,video ,aside ,artical , svg ,canvas 
+gradient,transition ,transform, background-img , box-shadow ,flex 
+async ,await ,call ,bind ,apply , foreach ,map ,sort , aarow fun 

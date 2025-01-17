@@ -174,4 +174,4 @@ increment();
 obj.increment();
 
 
-    
+    //var is func and global scope scope declaration  we can access value outside of block of scope . 
