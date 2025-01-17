@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todolist</title>
+</head>
+<body>
+   
+    <div style="display: flex;justify-content: center;align-items: center;flex-direction: column;margin-top: 30px;">
+<div id="selectAllCheckbox"> </div>
+        <form action="" id="form">
+            <input type="text"  onchange="handleSearchTerm(event.target.value)" id="input"/>
+
+    <button type="submit">Add</button>
+</form>
+<ul id="ul">
+
+</ul>
+    </div>
+    <script src="todolist.js"></script>
+</body>
+</html>

@@ -29,7 +29,8 @@ ul.innerHTML = ""
     boyspersonality.length>0&&boyspersonality.forEach((personality,index)=>{
 
         let createLi = document.createElement("li")
-       createLi.innerHTML =  `<span  onclick="handlelinethroughstyle(${index})"   style="${checkedforlinethrough[index]? 'text-decoration: line-through;' : ''}">${personality}</span><button   style="${checkedforlinethrough[index]?'color:white;background-color:red':''}" onclick="handleDelete(${index})">Delete</button>${editModal&&editIndex===index?`<input type="text" value='${editItems}' onchange="handleEditChange(event)" /><button onclick="handleEditAdd(${index})">add</button>`:`<button onclick="handleEdit('${personality}',${index})">Edit</button>`}`
+       createLi.innerHTML =  `<span  onclick="handlelinethroughstyle(${index})"   style="${checkedforlinethrough[index]? 'text-decoration: line-through;' : ''}">${personality}</span><button   style="${checkedforlinethrough[index]?'color:white;background-color:red':''}" onclick="handleDelete(${index})">Delete</button>
+       ${editModal&&editIndex===index?`<input type="text" value='${editItems}' onchange="handleEditChange(event)" /><button onclick="handleEditAdd(${index})">add</button>`:`<button onclick="handleEdit('${personality}',${index})">Edit</button>`}`
         ul.appendChild(createLi)
 })
 }

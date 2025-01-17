@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Overlap</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<style>
+.select_airports_section{
+  width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid  black;
+    border-radius: 50px;
+}
+.select_airports_section_content{
+    width: 50%;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    
+}
+input[type="radio"]{
+   visibility: hidden;
+}
+.active{
+    background-color: red;
+    color: white;
+}
+.from_airport{
+    transform: rotate(90deg);
+}
+#pickup_location_section,#droppoff_location_section{
+    width: 400px;
+}
+
+#pickup_location,#dropoff_location,#dropoff_airport,#pickup_airport{
+    width: 100%;
+    padding: 10px;
+    margin:10px 0px ;
+    color:rgb(128, 128, 128);
+}
+.get_quote{
+    width: 400px; 
+    padding: 10px;
+    text-align: center;
+}
+</style>
+<body>
+ 
+<div class="select_airports_section">
+<div class="select_airports_section_content active"><label for="to_airport"><i class="fa-solid fa-plane-departure"></i></label><input  type="radio" name="select_airport" id="to_airport"  value="to_airport"/></div>
+<div class="select_airports_section_content"><label for="from_airport"><i class="fa-solid fa-plane-arrival"></i></label><input type="radio" name="select_airport" id="from_airport"  value="from_airport"/></div>
+
+</div>
+
+<form action="" id="form">
+<div id="pickup_location_section">
+    <select name="pickup_location" id="pickup_location"  >
+        <option value="">pickup location</option>
+        <option value="new delhi">new delhi</option>
+        <option value="aanadvihar">aanadvihar</option>
+        <option value="pune">pune</option>
+        <option value="mumbai">mumbai</option>
+        <option value="goa">goa</option>
+    </select>
+    
+    <select name="pickup_airport" id="pickup_airport">
+        <option value="">select airport</option>
+        <option value="new delhi">new delhi</option>
+        <option value="aanadvihar">aanadvihar</option>
+        <option value="pune">pune</option>
+        <option value="mumbai">mumbai</option>
+        <option value="goa">goa</option>
+    </select>
+    
+</div>
+
+
+<div id="droppoff_location_section"  style="display: none;">
+   
+    
+    <select name="dropoff_airport" id="dropoff_airport">
+        <option value="">select airport</option>
+        <option value="new delhi">new delhi</option>
+        <option value="aanadvihar">aanadvihar</option>
+        <option value="pune">pune</option>
+        <option value="mumbai">mumbai</option>
+        <option value="goa">goa</option>
+    </select>
+    <select name="dropoff_location" id="dropoff_location">
+        <option value="">dropoff location</option>
+        <option value="new delhi">new delhi</option>
+        <option value="aanadvihar">aanadvihar</option>
+        <option value="pune">pune</option>
+        <option value="mumbai">mumbai</option>
+        <option value="goa">goa</option>
+    </select>
+</div>
+<button class="get_quote" id="get_quote" type="submit">Get Quote</button>
+</form>
+    <script src="overlap1.js"></script>
+</body>
+</html>

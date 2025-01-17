@@ -6,6 +6,11 @@ Q5 what is arrow function ,promise , async ,await ,promise parameter ,class , ob
 microtask , macrotask ,sttimeout ,setinterval ,useeffect , scope,splice
 Q6 useeffect , redux , why react , state , 
 Q7 interpreter and complier
+
+Q8 why should i hre you , why are you fit for this role .
+Q9 your strength and weekness 
+Q10  which biggest challenges did you face in your previous projects 
+q11 what is your achivement or role or responsblity in your project 
 // color ,assets ,main -width ,font ,box-shadow , and blur etc.
 //component based artictecture , own state ,reused component , redux ,library 
 

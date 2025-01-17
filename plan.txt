@@ -5,37 +5,63 @@ infintifintive baller   -45 min - fontawesome link , formula , true or false ,cl
 startpausereset   - 20 min
 todolist - 45 min - [...] , without local storage and checkbox 1 .30 extra for adding this ->useeffect for update , every , item length 
 selectfavourteGameAndMovie(radio)
-darkmode with context 
+darkmode with context   1
 debouncing 
 searchData
 calculator 
-checkboxOnDeleteCondition
-swapOnUsingCheckbox
+checkboxOnDeleteCondition 
+swapOnUsingCheckbox  2 
 pagination  -50 min - updating logic in useeffect 
 carousal   - 50 min - formula forget 
 selectCitiesAndCountries(select)
 breadcrumb 
 hooks (usestate, useeffect,usereducer,memo,usememo,usecallback,useref , usetransition, useoptimistic)
-context 
+ 
 
 
 ********** javascript 
 practice in js in 30 min
-todolist in js 
+todolist in js                 
 form submission data
-active class 
-overlap 
+active class     4
+overlap         3 2hrs 
 debouncing 
 output based question 
 
 
 ********** html and css 
 practice in html&class and react  in 30min
-navbar (modify from frameworks and manually)
+navbar (modify from frameworks and manually) 1.30 hrs for each 
 card 4 in row (modify from frameworks and manually)
 card 1 with content (modify from frameworks and manually)
 footer (modify from frameworks and manually)
 understanding of figma design 
+
+1component based architecture  2 virtual dom algorithim  3 declartive syntex onclick ,list , conditional rendering 
+4 jsx syntex 5 great community system and ecosystem 6 cross browser complablity 7 unidirectional data flow (parent to child )
+
+5 perform life cycle method , use subscription function (cleanup function),fetch data from api 
+create mutable variable which will not re-render 
+props 
+
+.make btter profile (indeed,naukri,linkdin,github , portfolio) using more using  reserachable keyword and successfull resume and add job alert 
+. talking to more people on linkedin , reddicts and josh skills for your referral 
+. well pre-pared for interview 
+.make account and so many job portal 
+//many job portal 
+
+//interview schedule 
+// theory round 
+//practical and managerial round 
+
+
+//1 todolist ,active class ,debouncing ,card in react using bootstrap and tailwind ,scope 
+
+
+
+
+
+
 
 
 

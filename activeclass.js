@@ -8,13 +8,13 @@ navbarItems.forEach((navbarItems,index)=>{
 
 
     //second way of achieving active class
-// const activeItem = document.querySelector('.active')   
-// console.log(activeItem,'activeitem')
-// if(activeItem!==null){    
-//     activeItem .classList.remove('active');
+const activeItem = document.querySelector('.active')   //first time null 
+console.log(activeItem,'activeitem')
+if(activeItem!==null){    
+    activeItem .classList.remove('active');
    
-// }
-// navbarItems.classList.add('active')
+}
+navbarItems.classList.add('active')
 
 
 
