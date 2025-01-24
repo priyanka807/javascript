@@ -44,18 +44,17 @@ understanding of figma design
 create mutable variable which will not re-render 
 props 
 
-.make btter profile (indeed,naukri,linkdin,github , portfolio) using more using  reserachable keyword and successfull resume and add job alert 
-. talking to more people on linkedin , reddicts and josh skills for your referral 
-. well pre-pared for interview 
-.make account and so many job portal 
-//many job portal 
 
-//interview schedule 
-// theory round 
-//practical and managerial round 
+react + bootstrap 
+react + tailwind 
+html + bootsrap   //eglogics ,prathamonline ,gamewebsite and jewellerywebsite 
+html + custom 
 
 
-//1 todolist ,active class ,debouncing ,card in react using bootstrap and tailwind ,scope 
+
+
+
+
 
 
 

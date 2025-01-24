@@ -6,7 +6,7 @@ const res = num.forEach((item)=>item)
 //console.log(res,'res')  //undefined 
 
 
-//modify the element of the original arr , apply all the condition what you want but return all the element even it comes in the condition or not
+//do not modify the element of the original arr , apply all the condition what you want but return all the element even it comes in the condition or not
 const num1 =  [4,6,2,3,7,9,6]
 const res1 = num1.map((item)=>item*2)
 const res2 = num1.map((item)=>item<5)      

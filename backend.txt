@@ -1,0 +1,14 @@
+
+NODEJS : nodejs is a javascript run time environment that is fast .but it does not support request handling ,
+https method and serving files so this is whre express js comes into the picture .
+
+.express make nodejs easiar . framework of nodejs . express provide wide range fetures to develop mobile and web application
+.buils single,multi and hybrid page application 
+.express is written in js it is very easy for developer to understand code 
+
+.it manage routing,http method sessions and error handling etc.
+
+
+EXPRESSJS : popular nodejs framework designed to build api web application cross platform mobile apps quickly.
+
+CORS : CORS (Cross-Origin Resource Sharing) is a security feature in browsers that restricts web pages from making requests to a different domain unless explicitly allowed by the server. It prevents unauthorized access between resources of different origins.

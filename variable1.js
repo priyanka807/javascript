@@ -26,3 +26,6 @@ console.log(name)
 //     console.log(x,"inside")
 // }
 // console.log(x,"outside")
+
+const  globalscope = "var become property of global object,window in browser and global in node"
+console.log(window.globalscope,'this is ecuting here')
