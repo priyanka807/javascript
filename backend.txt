@@ -1,6 +1,5 @@
+Node.js is an open-source, cross-platform JavaScript runtime environment that allows developers to execute JavaScript code outside of a web browser. It is built on the V8 JavaScript engine and enables the use of JavaScript for server-side programming, making it possible to write both client-side and server-side code in the same language.
 
-NODEJS : nodejs is a javascript run time environment that is fast .but it does not support request handling ,
-https method and serving files so this is whre express js comes into the picture .
 
 .express make nodejs easiar . framework of nodejs . express provide wide range fetures to develop mobile and web application
 .buils single,multi and hybrid page application 
