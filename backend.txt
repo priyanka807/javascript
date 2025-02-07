@@ -1,6 +1,5 @@
+Node.js is an open-source, cross-platform JavaScript runtime environment that allows developers to execute JavaScript code outside of a web browser. It is built on the V8 JavaScript engine and enables the use of JavaScript for server-side programming, making it possible to write both client-side and server-side code in the same language.
 
-NODEJS : nodejs is a javascript run time environment that is fast .but it does not support request handling ,
-https method and serving files so this is whre express js comes into the picture .
 
 hhtp : hyper text transfer protocol -> http stands for hyper text transfer protocol . this has set rule of govern that
 how information are transfer between server and browser . this is foundation of world wild web .
