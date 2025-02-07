@@ -22,7 +22,17 @@
 // console.log(includesArr.includes("6"))
 // console.log(includesArr.findIndex((itemindex)=>searchSubArrIndex===itemindex))
 
-const filterdublicate = [0,1,2,0,1,2,3,4,0,1,2,3]
-const duplicates = filterdublicate.filter((value, index, self) =>{
-    console.log(value,index,self)
-})
+// const filterdublicate = [0,1,2,0,1,2,3,4,0,1,2,3]
+// const duplicates = filterdublicate.filter((value, index, self) =>{
+//     console.log(value,index,self)
+// })
+
+
+// // let thick  = false
+
+// // if(!thick){
+// //     console.log(thick,'lets check what will print here 1')
+// // }
+
+// // thick = true 
+// //     console.log(thick,'lets check what will print here 2')

@@ -54,8 +54,25 @@ example of callback and async ,await , timeout ,promise etc.
 and intact with databse ,perform server logic , api generate ,run on server ex : xampp, node , pythan
 
 
-                                                                                               
+single threaded language : it execute one task at one time in order to from top to bottom . execute code line by line .
+each task wait for last task should complete in order to execute next last .
+each operation will complete before next one come in machine codes . 
+console.log("Start");
+console.log("Middle");
+console.log("End");
 
 
+console.log("Start");
+for (let i = 0; i < 1e9; i++) {} // Simulates a heavy task
+console.log("End");
+The for loop blocks execution, proving JavaScript runs one task at a time.                                                                                             
+If JavaScript were truly multi-threaded, setTimeout would execute immediately. But instead, it waits and executes after synchronous code finishes.
 
 
+this keyword : this keyword refers to an object that is executing current piece of code . 
+this refres to an object that is executing current function . if the function being reffrenced is a regular function .
+
+spread-operator : it only works  with obj itiration like array , map,set , string . 
+you can use the spread operator (...) to convert it into an array
+.allow an itirable to be expanded in its elements . 
+{..person} is actually using Object.assign() under the hood, which copies properties instead of expanding them as individual values.

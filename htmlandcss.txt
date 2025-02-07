@@ -16,19 +16,34 @@ it is unpoinionated and require more manual design efforts but provide more flex
 ex : <button class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">Tailwind Button</button>
 ex: provide so many helpers class , no preffrence for specific design , 
 customization : easily modify in components using helpers class , color , spacing , typography ki deffrred value changed 
-size and spit : better performance 
+size and spit : better performance .
 
 bootstrap : version 5.3   and tailwind : 3.4.17 
 
 materialui : is a open source ,react component library help to build intractive 
-web application and mobile app using these design . matrial ui focus on creating consistent user experience by enchancing design .
+web application and mobile app using these design . 
+
+
+ating consistent user experience by enchancing design .
 materal ui is based on google material design . 
 
- both are using for making client hhtp request 
- browser provide fetch api to making http request
- for using axios you have to install extra third party library because some browser do not support 
- fetch only handle network error  for managing all type of error you need to write custom code 
- // shorter syntex , handle all error type , automatically pass json response 
- // you need to write code for getting response code 
- // if you want to achieve more like timeout , inceptores you need to write custom code while axios provide automatically 
+position :used to make layout 
+static : default value , normal flow  left top
+relative : move towards to their normal poition using these top,left,bottom , right
+absulate : move towards to their ancesstors .
+fixed  and sticky 
+defination : stays fixed to the viewport regardless of scrolling   || strick to defined position while scrolling only within its parent container 
+position :  moves relative to browser viewport  || move realtive to nearest scrollbar ancesstor 
+moves with scroll : does not moves with scroll at all || move until it reach the boundry then is stays 
+requires : atleast one require for this (top,bottom ,left ,right ) || not worked with bottom 
+common use cases : chat pop-ups , floating buttons ,fixed navigation bar  || sticky header ,sticky sidebar inside scrolling sections.
+//stricky are only worked while scrolling time and only within its parent container 
+
+
+//dom : dom stands for documnent object model . browser engine read the html code and create something called dom .
+dom is like tree strcture that represents the html code on the page .
+
+dom that  represents the page you see in the web-browser and provide you with an api to intract with it .
+web browser constructs the dom when it loads an html document , structure all the element tree like representations .
+js can access to dom to make dynamanic ,content ,create element ,styling and , change strcuture of web page .
 

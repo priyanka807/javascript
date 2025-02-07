@@ -44,9 +44,25 @@ function outerfunction(){
     const callouterfunction = outerfunction()
     callouterfunction()
     
-    const arr = [5, 2, 3, 4];
-    
-    arr.reduce((accum,value,index)=>{
-        console.log(accum,value,index,'accum,value,index')
-        return accum+value
-    },2)
+
+
+    // In JavaScript, closures allow a function to "remember" and access variables from its outer (enclosing) scope,
+    //  even after the outer function has finished executing (returned). 
+    //  This behavior proves that closures "capture" the variables and keep them alive in memory.
+    function outerFunction() {
+        let count = 0;  // Outer function variable
+      
+        return function innerFunction() {
+          count++;  // Inner function accesses outer variable
+          console.log('Count:', count);
+        };
+      }
+      
+      // Call outer function and store the returned inner function in a variable
+      const counter = outerFunction();
+      
+      // Even though outerFunction has finished, the inner function still has access to `count`
+      counter();  // Output: Count: 1
+      counter();  // Output: Count: 2
+      counter();  // Output: Count: 3
+      

@@ -12,13 +12,10 @@ debug the code .
 5 rich ecosystem: react has large ecosystem including react-routing library for routing and redux for state management  . it intigrate with diffrent tools and framework.
 6 cross platform development :with the raect native tools .react can build the mobile application also using react native . ensuring consistent web developent and troubleshhoting 
 7 great community system : have better community systems , documenation and resources while helps to developer learn easily and debug code efficiently .
-
 8 react latest : July 11 , 2024 
-
 9 framework and library : in framework : library , configruation , helpers -> make work easy ,design pattern (mvc) model ,view ,controller  , approach , request -controller , view - >frontend ,  model -> database releted function return response ,database commounicate . libraray -> make classes for any fun and resued ->send mail , coolect all module create framework and fully dependent .
 library : a library is a pre written functions or classes that developers can call as needed .
 control : developer have control and call the library func whenever needed 
-
 framework : is a complete structure with predefined rules ,pattern ,artitecture to build application.
 control : framework controls flow of the application .developer follow its convention .
 use case : large scall application where requiring structured approach (mvc)
@@ -44,10 +41,30 @@ her goal is big but budget was enough ,no have budget . really you are wasteing 
 learn backend in next year using mongodb and node express mern  build api and live api and secure api before lunch 1 hr daily for interview 2 for backend after lunch add 
 pages more . 
 
-
-
 react 19 usetransition , useoptimistic ,useFormStatus ,   boot 5.3 tailwind 3.4.17 
 
 semantic tags , audio ,video ,aside ,artical , svg ,canvas 
 gradient,transition ,transform, background-img , box-shadow ,flex 
 async ,await ,call ,bind ,apply , foreach ,map ,sort , aarow fun 
+
+
+Angular : angular is a framework that is used for building web application . angular is maintained by google .
+it is open src programming language that is used html and typescript to build user interface , component based architecture .
+Angular is used for building single page web application  and developing scalable web projects .
+simplifying and streamlining  for development workflow .
+
+library : library is a collection of pre-written function you call when needed . 
+.pre-written-function : react provides ui function,components , hooks and developer use these when needed 
+.you can import and use this function anywhere
+control : you control and how to use this (when will you use useeffect and usememo , memo and callback ,useref)
+flexbiblity : you pick and choose function as you needed  ex : jquery,Lodash
+
+
+framework : a complete structure that detects how you should build your application
+ex : nextjs enforce project structure ,folder based routing and api folder for api handling and requires strict directory setup 
+framework control the flow you must follow its rules for ex: if you want to write api since you have to use api folder to make http request otherwise 
+you can't make request without follow its rule .
+most of the time framework have everything what you need 
+you must follow framework structure .ex : angular , nextjs , django , spring boot 
+you have to follow instruction / guide to write code in framework 
+

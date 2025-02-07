@@ -53,10 +53,11 @@ console.log(b,'print 20 because var do not perform block   if you define variabl
 
 
 
-var globalVar = "I am globle variable "
+
+var globalVar = "I'm a var";
 let globalLet = "I'm a let";
 const globalConst = "I'm a const";
+console.log(window.globalVar,'var keyword'); // Output:i am var //we can access value using var keyword because var is global property means var is property of global object in nod and browser in window       
 
-console.log(window.globalLet);  // Output: undefined in the case of const and let 
-
-console.log(window.globalVar);  //access window object and get value  
+console.log(window.globalLet);  // Output: undefined
+console.log(window.globalConst); // Output: undefined
