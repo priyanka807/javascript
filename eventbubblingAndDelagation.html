@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  
+    <div class="parent">
+       parent 
+       <h2 class="child">child1</h2>
+       <h2 class="child">child2</h2>
+       <h2 class="child">child3</h2>
+    </div>
+    
+   <script>
+    const parent = document.querySelector('.parent')
+    const child = document.querySelectorAll('.child')
+
+    // parent.addEventListener('click',(elem)=>{
+    //  alert(` parent clicked  ` )
+    //    },{capture:true}) 
+
+    // child.forEach(element => {
+    //    element.addEventListener('click',(elem)=>{
+    //     console.log(elem.target.innerHTML,'child')
+    //  alert(`${elem.target.innerHTML} is clicked  ` )
+    //    }) 
+    // },{capture:true});
+
+    parent.addEventListener('click',(elem)=>{
+      alert('PARENT CLICKED')  
+  const getChildElem = elem.target.querySelectorAll('.child')  
+
+
+getChildElem.forEach(element => {
+    console.log(element.innerHTML,'getChildElem')
+    alert(`${element.innerHTML}`)
+ 
+        }) 
+   
+
+       }) 
+
+  
+
+   </script> 
+</body>
+</html>
