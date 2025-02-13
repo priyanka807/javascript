@@ -71,8 +71,15 @@ If JavaScript were truly multi-threaded, setTimeout would execute immediately. B
 
 this keyword : this keyword refers to an object that is executing current piece of code . 
 this refres to an object that is executing current function . if the function being reffrenced is a regular function .
+It is commonly used in object-oriented programming to access the properties and
+methods of an object.
+
 
 spread-operator : it only works  with obj itiration like array , map,set , string . 
 you can use the spread operator (...) to convert it into an array
 .allow an itirable to be expanded in its elements . 
 {..person} is actually using Object.assign() under the hood, which copies properties instead of expanding them as individual values.
+
+
+1 designing , development , maintain , optimize code and inc performance ,intract with cross functional team 
+, ensuring code is working correctly , updating daily regarding function , 
