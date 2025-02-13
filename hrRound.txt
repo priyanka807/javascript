@@ -175,7 +175,7 @@ that time i don't know how functionality will work , for understanding this i vi
 and type anthing in serach bar and open network tak to see what's going on then i observed whenever we 
 type it took some time to show data so i got the debouncing concept  and api calling from there .
 i learn about debouncing , clenaup function and api handling and i implimented in my website also .
-it was challenging me but 
+it was challenging me but i have achived it 
 
 
  

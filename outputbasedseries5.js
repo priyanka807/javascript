@@ -44,8 +44,10 @@ nmae = 'priyanka'  // only for confusing
 
 
 function fruit(){
-console.log('access of fruits ')
+
 }
 fruit.name = "chiku" // only for confusing 
 fruit()
+
+
 

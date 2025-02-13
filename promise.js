@@ -57,4 +57,7 @@ console.log('resolve one ')
     }
     )
 console.log(reject,'reject ')
+ 
+
+
 
