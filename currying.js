@@ -1,3 +1,4 @@
+// Currying is a technique in JavaScript where a function takes multiple arguments one at a time instead of all at once.
 console.log("first")
 
 function add(a,b){

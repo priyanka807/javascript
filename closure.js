@@ -66,3 +66,22 @@ function outerfunction(){
       counter();  // Output: Count: 2
       counter();  // Output: Count: 3
       
+
+
+// function outerFunction(){
+//     let counter  = 1 
+//     return function (){
+//      counter++
+//         console.log(counter,'counter')
+
+//         return ()=>{
+//             return counter
+//         }
+//     }
+// }
+
+// const outerFunctionCall = outerFunction()
+// outerFunctionCall()
+// outerFunctionCall()
+// const finalfun = outerFunctionCall()
+// finalfun()
