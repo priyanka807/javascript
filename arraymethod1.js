@@ -59,3 +59,33 @@ console.log(!arrlist)
 let arr1 = [];
 let arr2 = arr1;  // Both now reference the same array , have same reffrence memory location
 console.log(arr1 === arr2);  // true
+
+
+
+function dublicateunique(character){
+    const obj = {}
+    const dublicate = []
+    const unique = []
+    for (let char of character){
+        if(obj[char]>0){
+           obj[char] += 1
+        }else{
+            obj[char] = 1
+        }
+      
+    }
+for(const key in obj){
+    if(obj[key]>1){
+        
+        dublicate.push(key)   
+    }else{
+        unique.push(key)
+       
+    }
+   
+            // {a:1}
+}
+    console.log( unique,'unique')
+      console.log(dublicate,'dublicate')    
+}
+dublicateunique('abstract')
