@@ -68,3 +68,18 @@ most of the time framework have everything what you need
 you must follow framework structure .ex : angular , nextjs , django , spring boot 
 you have to follow instruction / guide to write code in framework 
 
+
+diffrence between useContext and redux ?
+both are used for manage state . they have diffrent use case and impliment 
+//useContext :allow  sharing   state between components without prop drilling 
+//redux : provide centerilized global store and manage state through actions and reducers 
+type : react hook || state-management library 
+complexity : simple and lieghtweight || more complex and strcutured
+scalable : suitable for small to medium  apps  ||best for  large application 
+performance : can cause unneccessary re-renders  || optimized with  reducers and milldleware 
+Setup : minimal setup ||requires  store , actions and reducers 
+middleware : no-built in middleware ||support middleware (async logic) like redux thunk and saga 
+data-flow : component-driven || centerilized store 
+
+
+

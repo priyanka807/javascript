@@ -85,3 +85,48 @@ function outerfunction(){
 // outerFunctionCall()
 // const finalfun = outerFunctionCall()
 // finalfun()
+
+
+// lexical environment 
+//lexical enviroment in js is structure that holds variable and function reffrence (access variable from outer function) in a specific scope .
+// Each function and block of code create its own  lexical environment .
+//it contain local variable and reffrence to outer lexical environment .
+// Inner function can inherits/access the variable from outer scope .
+
+
+
+// function outer() {
+//   let a = 10; // Stored in outer()'s Lexical Environment
+
+//   function inner() {
+//     let b = 20; // Stored in inner()'s Lexical Environment
+//     console.log(a + b); // Can access 'a' from outer()
+//   }
+
+//   inner(); // Calling inner()
+// }
+
+// outer();
+// 🔍 What Happens in the Lexical Environment?
+// 1️⃣ outer() is called
+
+// A Lexical Environment is created.
+// It stores { a: 10, inner: function reference }.
+// 2️⃣ inner() is called inside outer()
+
+// A new Lexical Environment is created for inner().
+// It stores { b: 20 }.
+// It also has a reference to outer()'s Lexical Environment (so it can access a).
+// 3️⃣ Scope Chain:
+
+// inner() does not have a inside its own Lexical Environment, so it looks up to outer()'s environment to find a = 10.
+// Then, it prints 10 + 20 = 30.
+
+
+
+//Each function and block of code has its own lexical environment .
+//it contains local variable and reffrence to outer lexical environment (known as scope chain )
+// inner function can  inherits/access the variable from the outer  scope  due to scope chain..
+// it also keep the reffrence to the outer scope .
+//every function store variable and function reffrence in its own lexical environment 
+//lexical environment helps js remember where function and variable exits in memory .

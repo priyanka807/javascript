@@ -28,6 +28,16 @@ without using third variable swap two variable value  , project , responsive and
 backend code run , fetch without seeing syntex , add without using pre build method , .
 
 
+15 : noida sector 62 : no iterview , inc and dec fun , search functionalities , more and less data show 
+find first character from string , find even no . , life cycle method , asynchronous , promise 
+, async ,await , unidirectional-flow , js , 
+
+node is multi thread language , how do you proof multi thread language , curring , lexical environment ,
+promise , async -await ,callback hell , lifecycyle method , recurssion , props are immutable ,
+memo , memo is hoc , how to write in concise and appropriate way in currying , object and 
+function store in usecallback function .
+
+
 
 
 
