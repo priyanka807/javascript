@@ -24,5 +24,5 @@
 
 const filterdublicate = [0,1,2,0,1,2,3,4,0,1,2,3]
 const duplicates = filterdublicate.filter((value, index, self) =>{
-    console.log(value,index,self)
+    return self.indexOf(value)!==index
 })
