@@ -1,0 +1,53 @@
+Q1 : what differentiates you from other candidate?  and why should i hire you ?.
+Ans : 1 problem solving skills
+2 hands on experience on live project 
+3 decision maker and proactive decision 
+4 adapt new technology and update with latest tech 
+4 hardworking and smartworking 
+6 work with tight deadlins 
+7 my skills align with your requirement . 
+8 valueable asset for your team 
+9 positive attitude , pateince and calm in every situation .
+10 good presenation skills 
+11 research skills 
+12 commitment to delever high quality work , visual applealing , user-experirnce and better performance .
+13 daily commitent to make my better version this is help in your organization 
+14 good observation 
+15 be serious for the new opportunity . 
+16 always ready to tackle new challenge .
+17 aviod the comfortzone 
+18 love to new task and challenge 
+
+Q2 how do you handle pressure with tight deadlines ?
+Ans : 1 pritoize task in two category 1 simple task and 2 complex task 
+2 analysis task which task how much take time to do 
+3 start with simple since i boost my confidence and built complex task so easy 
+4 maitain myself calm in that situation 
+5 between this clear communication with team member while ensuring my work is align with requirement .
+
+
+Q3 how did you face challenges while doing coding : situation , task , action ,result 
+Ans : 1 when i was working on indimedo website using react technology there i have to build search fetaures just 
+like amozon and flipkart that was new in that time so for understanding concept i visit flipkart website to understand how react
+search functionality is working what is happening for that i have opened the network tab to check api request url how is taking
+time to show result for achieving debouncing functionality so i relize that it is taking some time to show result
+reasearch related how can i achieve this so got to debouncing concept first hit api using post and get result to update immediate .
+
+2 language barrier 3 specific location added 3 perform enhance 26 to 90 in responsive , accessblility -> form ,label ,alt ,automatic 
+if or else ,google tag manager ,async and differ ,lazy loading ,canonical tag , open meta deta added ,  prefetch , preloading , resizie issue resolve , wepb format 
+
+3 on page seo : 3xx redirect error ,page not found , robotx .text , dublicate error ,serp title , alternative canoninical error 
+htaccess for redirect error ,
+
+
+Q4 how do you ensure website is responsive ?.
+Ans :1 use width property for parent div .
+2 use flex wrap property to make responsive in small screen .
+3 use media query and developers tools to make website responsive .
+4 use rem instead of px . 
+5 first clear the concept how this will appear in the mobile and other screen .
+6 it is good practice if we make one component and check in diffrent device how looks and make responsive one by one .
+7 make sure we don't use two framework at same time ,otherwize make conflict and mismatching with the class .
+8 use diffrent class name sometime we don't know the classes is coming from ? .
+
+

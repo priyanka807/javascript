@@ -15,15 +15,20 @@ map.set(object,preson)
 console.log(map)
 console.log(map.get('1'))
 
-let timeout = null; 
+// Declare some variables
+// const name = "John Doe";
+// const email = "johndoe@example.com";
+// const phone = "1234567890";
 
-if (timeout) {
-    console.log('when timeout gets a value');
-} else {
-    console.log('this will not execute the first time');
-}
+// // Use shorthand properties to create an object
+// const user = {
+//     name,
+//     email,
+//     phone
+// };
 
-timeout = 4;
+// console.log(user,'user');
+
 
 
 const requestBody = {

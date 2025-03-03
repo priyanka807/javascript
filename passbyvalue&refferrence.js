@@ -1,4 +1,4 @@
-
+//primitive data types are compared by pass by value and non-primitive data types are compared by pass by refferrence
 //values : 1 pass by  value or primitives data types or immutable  or deep copy 2 : pass by refference :mutable , non-primitives data types or mutable or shallow copy
 
 //direct pass the value to the other variable  or deep copy of the primitives data types 

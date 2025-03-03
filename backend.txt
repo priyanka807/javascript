@@ -1,8 +1,12 @@
 Node.js is an open-source, cross-platform JavaScript runtime environment that allows developers to execute JavaScript code outside of a web browser. It is built on the V8 JavaScript engine and enables the use of JavaScript for server-side programming, making it possible to write both client-side and server-side code in the same language.
 
 
+hhtp : hyper text transfer protocol -> http stands for hyper text transfer protocol . this has set rule of govern that
+how information are transfer between server and browser . this is foundation of world wild web .
+request handling ,http request ,readling file from database 
+
 .express make nodejs easiar . framework of nodejs . express provide wide range fetures to develop mobile and web application
-.buils single,multi and hybrid page application 
+.buils single,multi and hybrid page application ,
 .express is written in js it is very easy for developer to understand code 
 
 .it manage routing,http method sessions and error handling etc.
@@ -11,3 +15,23 @@ Node.js is an open-source, cross-platform JavaScript runtime environment that al
 EXPRESSJS : popular nodejs framework designed to build api web application cross platform mobile apps quickly.
 
 CORS : CORS (Cross-Origin Resource Sharing) is a security feature in browsers that restricts web pages from making requests to a different domain unless explicitly allowed by the server. It prevents unauthorized access between resources of different origins.
+
+COOKIES 
+1 cookes are used in authenthication  and session managemenent because they allow storing  
+user-releted-data on client side in secure and pesitant.
+2 when cookie is set with httponly and secure flags so
+ browser automatically include it in every request to the same domain
+
+Q1 how does cookies work in client and server side rendering ? how if we accept cookie then store our data and browsing
+history and loading speed -> , do not need to login again ,delete ,session expire , specific time session expire . with example .
+Q2 figma design understand 
+Q3 ALL COMPANY PROJECTS WHAT HE HAS DONE IN THESE 4 YEARS ALL GITHUB REPOSITORY AND PROJECTS AND HIS ACHIVEMENTS .
+q4 framework and library .
+
+
+
+
+
+
+
+

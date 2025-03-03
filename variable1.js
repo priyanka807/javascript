@@ -29,3 +29,6 @@ console.log(name)
 
 const  globalscope = "var become property of global object,window in browser and global in node"
 console.log(window.globalscope,'this is ecuting here')
+
+
+

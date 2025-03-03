@@ -1,0 +1,189 @@
+
+// reason => I’m seeking new challenges to further develop my skills and work on diverse projects beyond 
+// my current role, where I've primarily managed marketing websites. I’m eager to grow in a dynamic  environment.
+
+
+//Intoduction => I'm a React developer focused on building robust,user friendly  and  scalable, responsive  website With a strong foundation in JavaScript, React, and modern frameworks 
+// like Redux and Tailwind CSS. i have developed streamlined ,accessible site for mmwmachine , created a job aggregator to simplify career searches
+//built an e-commerce platform for online pharmaceuticals focused on responsive 
+// and a seamless user experience. I'm committed to building scalable solutions that prioritize usability and performance."
+
+
+//1careerwallet in eglogics   ,indimedo ,mmw,Mohindra Engineering Company  -> live link ,4  fetaures  , website view ,tech 
+// Created a user-friendly job aggregator, simplifying career searches. enhance efficiency and accessibility with the help of optimize code , facilitating smoother transitions into desired professions.
+//Developed a robust platform for online pharmaceuticals, Streamlined user experience and ensured secure transactions, contributing to accessible healthcare solutions.
+//A user-friendly and mobile-responsive platform designed for seamless navigation and fast loading times. Built with a robust tech stack, including CSS, HTML, Bootstrap, and Javascript.
+//Built with a robust tech stack including CSS, HTML, Bootstrap, and Php, we ensure a seamless user experience for our visitors. I thrive in collaborative environments, continually seeking opportunities.
+
+
+// -> introduction and project  and reason  samall company -> design landing page  - github priyanka807,never458032 , you know in which folder where you will get extact code and sec oftion for googling 
+// -> large company ->functionality ,react ,core concept of react ,task assign based on the functionality
+//-> visual code for normal html and react open 2 github 3 portfolio 4 cheeting 5 clear notes where mentioned where will you which code you will get
+
+//common high-figh words 1 robust 2 user friendly 3 streamlined 4streamless 5 accessablity 6 responsive 7 accessability 
+//robust and scableable,streamlined and accessible ,seamless user experience ,scalable solution 
+
+
+//1 streamlined and accessible  2 seamless user experience  3 accessability and useability , thrive in collabrative environments ,continuousaly seeking opportunities .
+
+
+//mmwmachine.com
+// A user-friendly and mobile-responsive platform designed for seamless navigation and fast loading times.
+//added multiple location and language to reach target audience .
+// Detailed product descriptions with optimized meta tags.
+// added multiple location and language to reach target audience .
+
+
+INTRODUCTION 
+
+thankyou for the giving me this oppurtunity to indroduce myself .
+
+as you know i am priyanka . i have done my bechlar degree alongside develop my  strong coding skills . 
+i have 2 years of experience as react developer .previously i have worked with eglogics softtech private limited there i have build 
+carrerwallete to simply career search and provide smoothing  job  into desired job afterthat i have joined 
+avantihardware softtech private limited ther i have developed robust online ecommerce platform for pharmacueticals .now
+i am current working with mohindra mechanical works there i build streamlined and accessible mohindra marketing website .
+i am committted to continue enchancing performance and accessiblity of website . during these period i have build my proficient 
+in these technology html ,css ,js  and react etc . that's all from my side . thankyou 
+
+REASON 
+
+I want to change job because there is only developer . there is no other teams in technical . they assigned to to build only marketing 
+website .which i already build .now they are assigning to digital marketing task to make poster for youtube thumnail ,
+uploading products on indiamart , saying to do seo for these website . so i am not getting the chance to build dynamanic and 
+functionality based website on react . now i am looking for opportunity there i put my all potentials with dynmanic team in your company .
+
+
+WHY SHOULD YOU HIRE ME ?
+
+You should hire me because my approach is diffrent from others , continue learning new skills , 
+updated with latest tech , good with other team member , have excellence reasearch skills ,
+hands-on exprience on live project ,problem-solving skills ,clear communication 
+and my skills align with your requirement where i can provide my full potential in am positive environment .
+
+HOW YOUR APPROACH ARE DIFFRENT FROM OTHERS ?
+
+My approach are diffrent from others . always keep clear communication with team member
+for getting success i do hardwork but after getting suceess i will do more hardwork, keen observation ,
+, i will be valuable asset for your company.
+learning from others persoon , believe in each day enchance myself , achieve your daily goal .
+i love to achieve task what i assigned to me before deadline . 
+ i can handle pressure , tight deadline ,manage multimasking 
+some times i can  do overtime if it urgent and needed 
+love to take new challenges 
+i think nefore starting coding 
+
+WHERE DID YOU SEE YOURSELF IN NEXT FIVE YERS ?
+In the next five years i see myself  as a highly full stack dveloper . mastering both frontend and backend technologies .
+i want to work on complex projects and contribute to innovative solutions and take on leadership responsblities .
+such as mentoring junior developer or leading a development team . i also aim to stay updated with latest trends and possibly specialize in areas like 
+cloud computing or ai intigrations in web development . ultimately i want to grow within the company and add significents value to the team and projects i work on .
+
+
+HOW DID YOU MANAGE YOUR WORK IN TIGHT DEADLINE .
+
+1 first understand requirement of task deeply .
+2 i will break into small and large task .
+3 first i will complete functionality based task . and make my own deadline to achieve all task . 
+try to complete this task before reaching deadline . 
+4 clear communication during this time with all team member . 
+5 keep calm , positive attitude , recall my previous achievement this time . 
+
+TELL ME SOMETHING ABOUT YOURSELF WHAT YOU DID NOT MENTION IN RESUME ?
+
+
+
+Q1 tell me something about you ?
+Thankyou for giving me this opportunity to introduce myself as you know i am peiyanka kumari .
+i have done bechlar degree from du university alongside exploring coding skills . previously 
+i have worked with eglogic software privite limited as react developer there i have build career wallet to simply 
+career search and provide fascnating smoother job into desired job . after taht i have joined avanti hardware private limited 
+there i have created robust ecommerce platform for pharmacueticals .now i am currently working with mohindra mechanical works 
+where i have develeoped user-friendly and seamless navigation marketing website . during this period 
+i have my skiils in html,css ,css framework and react etc . i am committed to continously enchanicing performance and useablity of website.
+that's all from my side .thanks again .
+
+
+Q2 tell  me something about you what  you are not mentioned in your resume?
+thanking for asking this questions . i have not mentioned my coding journey in resume . what was very interesting .
+i am not from technical background .how i tackle all the problem which comes in learning time .
+when i started learning coding that time even i don't have any mentor . when i was learning js 
+and creating one form with validation  that time its very tough for me how functionality and validation is 
+working , for sometime i frustrated but i never give up i search 1000 of the youtube videoes and serach on google 
+and ask this question on linkedin , make frd on other platform like josh skills apps . so i have learnt by my life 
+experience is nothing is impossible you decided you can achieve anything . people help you .this way i have learnt 
+problem solving skills , research skills , communicate with person  and positive additude . 
+
+strength : keen observation , positive approach ,good communicator  , taking chllanges 
+weekness : i like to do every work from scarach , emotional , 
+
+Q3 why should i hire you ?Why do you think you are suitable for this role ? 
+why do you think you deserve this amt of money  what we will give you ?how you can give profit to organization ? 
+
+you should hire me because i have problem solving and research skills , hands on experience on live projects ,
+i will be valuable asset for you company , good with all team member  and my skills are align with your organization requirement 
+there i can put my all potential to your company growth .
+
+1 problem solving skills (form , serachbar ,api ) and research skills (how research your website design )
+2 hand's on experience on live project
+3 staying updated with latest trend technology
+4  exploring new technology and love to accept challanges 
+5 my skills are align with your organization requirements 
+6 i am valuable assets for you 
+
+i deserve that's amt of salary because it is basic market pay standard salary for 2 years experience as react developer .
+i have that's all kind of skills this will be valueable for your organization growth .
+
+
+Q4 what is your current  roles and responblity in organization?
+
+i research about design things and create design for website itself .
+developed user friendly  website and make responsive website .
+maintain efficiency and performance of code on the daily basis .
+implimented all the features what assigned to me . (specific location based webpage , add language ,animation )
+comimunicate with owner and hr on the daily basis 
+i have done on page seo and technical seo for this website itself .
+
+
+designing ,maintaining , developing frontend and backend application 
+ensuring responsiveness and performance of website 
+collobarating with cross functional team to define ,design and ship new features 
+debugging and resolving technical issues promptly
+staying updated with emerging tehnology and industary trends 
+
+
+Q5   why do you want to leave current company ?
+
+I want to leave current company because there is only developer they assigned me to build only marketing website.
+now website has build they are assign me task to make canva poster , uploading video on youtube and indimart and seo .
+they don't have any dynamanic and  functionality based project where i can use my skills . there i can put my full
+potential  to build functionality based website to organization growth . 
+
+Q6 how you are diffrent from other candidate ?
+1 have problem solving and research skills 
+2 my approach are diffrent from others 
+3 i can manage multi-tasking 
+4 i submit task and project before deadline 
+5 sometime i can do overtime for company in emergeny and company need 
+6 staying updated with latest trend technology 
+
+
+Q7 describe your challenging task what you achieve ?
+
+when i was developing indimedo website that time i have to build search bar same like flipkart website .
+that time i don't know how functionality will work , for understanding this i visited on flipkart website 
+and type anthing in serach bar and open network tak to see what's going on then i observed whenever we 
+type it took some time to show data so i got the debouncing concept  and api calling from there .
+i learn about debouncing , clenaup function and api handling and i implimented in my website also .
+it was challenging me but i have achived it 
+
+
+Q8  Why would you like to join DG Royals Institute? (Min. 100 Char)
+i would like to join DG Royals Institute because i am looking for better opportunites for growth , 
+hands on experience with challenging projects , the oppurtunity to add new skills  and collabrative environment 
+where my skills can continuously learn ,improve and benifits company . 
+ 
+
+
+
+

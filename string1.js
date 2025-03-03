@@ -51,3 +51,13 @@ const password = undefined
 if(!password){
     console.log('now this will run ')
 }
+
+
+const name = "Priyanka Kumari";
+const firstLetter = name[0]
+console.log(firstLetter,'firstLetter')
+console.log(firstLetter.charAt(0),'firstLetter')
+
+const firstLetterOfEachWord = name.split(" ").map(word=>word[0]).join(" ")
+console.log(firstLetterOfEachWord,'firstLetterOfEachWord')
+console.log(name.match(/\b\w/g)?.join(" "),'match function ')
